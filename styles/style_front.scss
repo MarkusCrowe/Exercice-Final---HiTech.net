@@ -70,6 +70,7 @@ body{
         }
     }
     nav{
+        width: 100%;
         .navi{
             list-style-type: none;
             text-align: center;
@@ -80,6 +81,8 @@ body{
                 color: $color-back-head;
                 padding: 10px;
                 transition: all 0.5s;
+                position: relative;
+                margin: 0;
                 i{
                     padding: 10px;
                 }
@@ -87,6 +90,40 @@ body{
                     transform: scale(1.1);
                     cursor: pointer;
                 }
+                // ul{
+                //     // display: none;
+                //     display: flex;
+                //     flex-direction: column;
+                //     flex-wrap: nowrap;
+                //     text-align: center;
+                //     background-color: white;
+                //     width: 100vw;
+                //     padding: 0;
+                //     overflow: scroll;
+                //     list-style: none;
+                //     position: absolute;
+                //     left: 0;
+                //     top: 100%;
+                //     li{
+                //         font-size: 1.5rem;
+                //         margin: 0;
+                //         color: black;
+                //         ul{
+                //             display: none;
+                            
+                //         }
+                //         &:hover{
+                //             display: flex;
+                //         flex-direction: column;
+                //         align-items: center;
+
+                //         li{
+                //             color: $color-back-head;
+                //             font-size: 0.8rem;
+                //         }
+                //         }
+                //     }
+                // }
             }
         }
     }
